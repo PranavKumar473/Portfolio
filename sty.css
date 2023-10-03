@@ -1,0 +1,223 @@
+@media(min-width:400px) and (max-width:600px){
+    body{
+      background-color: lightsalmon;
+    }
+   }
+   @media(min-width:601px) and (max-width:800px){
+    body{
+      background-color: powderblue;
+    }
+   }
+   @media(min-width:801px) and (max-width:1000px){
+    body{
+      background-color: limegreen;
+    }
+   }
+   @media(min-width:1001px){
+    body{
+      background-color: seagreen;
+    }
+   }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #A8DF8E;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid black;
+    color: black;
+}
+
+.heading span{
+    color: #952323;
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid black;
+    color: orangered;
+}
+
+.title span{
+    color: #952323;
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid black;
+    color: black;
+}
+.head span{
+    color: #952323;
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: black
+}
+.pro span{
+    color: #5F8D4E;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid #285430;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: seagreen;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: seagreen;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #952323;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:yellowgreen;
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: #001524;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: orangered;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid #331D2C;
+    border-collapse: collapse;
+}
+td{
+    color: #001524;
+    padding: 1rem;
+}
+th{
+    color: orangered;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: orange;
+}
+#lis li{
+    margin: 0 9rem;
+    color: #001524;
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: #001524;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: orangered;
+    padding: 0. 5rem;
+    font-weight: bold;
+    
+}
